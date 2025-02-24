@@ -16,7 +16,7 @@ if command -v ufw &> /dev/null; then
     ufw --force enable
 fi
 
-SSH_DIR="/root/.ssh"
+SSH_DIR="~/.ssh"
 KEY_FILE="$SSH_DIR/id_rsa"
 
 mkdir -p "$SSH_DIR"
